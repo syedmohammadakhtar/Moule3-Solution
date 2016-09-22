@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,14 +20,70 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-	  	<div class="container">
-	  	<div class="header">
-	  	AkhtarSoft
-	  	</div>
-	    
-	  	</div>
-	</nav>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-text-background"id="top"></span> NEWS BAR SWAT</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#todaynews">Today NEWS <span class="sr-only">(current)</span></a></li>
+        <li><a href="#oldnews">Old NEWS</a></li>
+		<li><a href="#">Swat Histroy</a></li>
+		<li><a href="#">Picture Gallery</a></li>
+		<li><a href="#">About US</a></li>
+		<li><a href="#contactus">Contact Us</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+	<div id="row1" class="row">
+		<div id="box1" class="col-lg-4 col-md-4   col-sm=12">
+		<span id="todaynews">News</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec elit nec risus blandit rhoncus ac sit amet metus. Sed a dolor lectus. Suspendisse id est orci. Etiam eget tortor eu est ullamcorper ultricies. Morbi in dolor nibh. Aenean elementum, magna vitae facilisis vestibulum, odio lectus rhoncus turpis, nec auctor sapien dolor quis neque. </p>
+		</div>
+		<div id="box2" class="col-lg-7 col-md-4   col-sm=12">
+		<span id="oldnews">Old NEWS</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec elit nec risus blandit rhoncus ac sit amet metus. Sed a dolor lectus. Suspendisse id est orci. Etiam eget tortor eu est ullamcorper ultricies. Morbi in dolor nibh. Aenean elementum, magna vitae facilisis vestibulum, odio lectus rhoncus turpis, nec auctor sapien dolor quis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec elit nec risus blandit rhoncus ac sit amet metus. Sed a dolor lectus. Suspendisse id est orci. Etiam eget tortor eu est ullamcorper ultricies. Morbi in dolor nibh. Aenean elementum, magna vitae facilisis vestibulum, odio lectus rhoncus turpis, nec auctor sapien dolor quis neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec elit nec risus blandit rhoncus ac sit amet metus. Sed a dolor lectus. Suspendisse id est orci. Etiam eget tortor eu est ullamcorper ultricies. Morbi in dolor nibh. Aenean elementum, magna vitae facilisis vestibulum, odio lectus rhoncus turpis, nec auctor sapien dolor quis neque. </p>
+		</div>
+		<div id="box3" class="col-lg-4 col-md-4   col-sm=12">
+		<span id="todaynews">News</span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec elit nec risus blandit rhoncus ac sit amet metus. Sed a dolor lectus. Suspendisse id est orci. Etiam eget tortor eu est ullamcorper ultricies. Morbi in dolor nibh. Aenean elementum, magna vitae facilisis vestibulum, odio lectus rhoncus turpis, nec auctor sapien dolor quis neque. </p>
+		</div>
+
+
+
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
